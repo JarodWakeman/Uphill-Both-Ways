@@ -639,6 +639,38 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2915719125937073163, guid: d558c4c25b630374b81b28286962ebaf, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 2915719125523491561}
+    - target: {fileID: 2915719125937073165, guid: d558c4c25b630374b81b28286962ebaf, type: 3}
+      propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2915719125937073165, guid: d558c4c25b630374b81b28286962ebaf, type: 3}
+      propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2915719125937073165, guid: d558c4c25b630374b81b28286962ebaf, type: 3}
+      propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2915719125523491562}
+    - target: {fileID: 2915719125937073165, guid: d558c4c25b630374b81b28286962ebaf, type: 3}
+      propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2915719125937073165, guid: d558c4c25b630374b81b28286962ebaf, type: 3}
+      propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnLanding
+      objectReference: {fileID: 0}
+    - target: {fileID: 2915719125937073165, guid: d558c4c25b630374b81b28286962ebaf, type: 3}
+      propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Player, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2915719125937073165, guid: d558c4c25b630374b81b28286962ebaf, type: 3}
+      propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2915719125937073166, guid: d558c4c25b630374b81b28286962ebaf, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -685,6 +717,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d558c4c25b630374b81b28286962ebaf, type: 3}
+--- !u!1 &2915719125523491560 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2915719125937073152, guid: d558c4c25b630374b81b28286962ebaf, type: 3}
+  m_PrefabInstance: {fileID: 2915719125523491559}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2915719125523491561
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2915719125523491560}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b9a24f6e9a41ed54a9b6ee03b089bf1d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &2915719125523491562 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2915719125937073163, guid: d558c4c25b630374b81b28286962ebaf, type: 3}
+  m_PrefabInstance: {fileID: 2915719125523491559}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2915719125523491560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c97a7f3ac0c8334795561f1e4c7a411, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6611252364388207037
 PrefabInstance:
   m_ObjectHideFlags: 0
