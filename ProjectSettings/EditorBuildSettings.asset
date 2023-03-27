@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Failed Level.unity
     guid: 79d5e2221b264474a89cff20cccec1d0
+  - enabled: 1
+    path: Assets/Scenes/You Win.unity
+    guid: 85d31b19c94c5af44b15f529f5d4574e
   m_configObjects: {}

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ItemCollector : MonoBehaviour
 {
@@ -17,6 +18,16 @@ public class ItemCollector : MonoBehaviour
             Destroy(collision.gameObject);
             coins++;
             coinsText.text = "Coins: " + coins;
-        } 
+
+            if (coins == 8)
+            {
+                GameOver();
+            }
+            } 
+    }
+
+    private void GameOver()
+    {
+            SceneManager.LoadScene(3);
     }
 }
